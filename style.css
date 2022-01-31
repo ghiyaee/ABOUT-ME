@@ -20,7 +20,16 @@ h2{
      position: relative;
      z-index: 2;
 }
-
+.my-pic{
+  width: 10px;
+  height:10px;
+}
+.my-pic img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10%;
+}
 .navbar{
     position: fixed;
     top: 0;
@@ -59,18 +68,19 @@ h2{
  }
 H2{
     color: rgb(16, 96, 245);
-    font-weight: 900;
-    font-size: 50px;
+    font-weight:400;
+    font-size: 30px;
 }
 body{
     height: 100vh;
-     background:
-    url('./IMG-2.jpg') center ;
+     /* background:
+    url('./IMG-3.jpg') center  ;
     background-size: cover ;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     position: relative;
     /* z-index: 1; */
     overflow: hidden;
+    border-radius: 50%;
 }
 .footer{
     position: absolute;
