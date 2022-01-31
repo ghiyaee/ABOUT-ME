@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h2{
+    margin-top: 0.4rem;
+}
+.menu{
+    cursor: pointer;
+    color: rgb(231, 90, 90);
+    font-size: 30px;
+    font-weight: 900;
+     /* transform: rotateZ(90deg); */
+     direction: rtl;
+     margin:0.5rem;
+     position: relative;
+     z-index: 2;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* opacity: 0.80; */
+    width: 100%;
+    height: 100vh;
+    /* visibility: hidden; */
+    background: rgba(61, 47, 47,0.9);
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 1.5rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:tomato;
+   font-size: 1.5rem;
+   text-transform: uppercase;
+}
+ .active{
+    visibility: visible;
+     transform: translateX(0);   
+     
+ }
+
+ span{
+     color:rgb(190, 40, 14)
+ }
+H2{
+    color: rgb(16, 96, 245);
+    font-weight: 900;
+    font-size: 50px;
+}
+body{
+    height: 100vh;
+     background:
+    url('./IMG-2.jpg') center ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    position: relative;
+    /* z-index: 1; */
+    overflow: hidden;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+ .footer a{
+    padding: 0.2rem;
+    font-weight: 300;
+    color:black;
+    margin: 0.5rem;
+ }
+  .footer a:hover{
+      color:tomato;
+      transition: all 1s ease-in-out;
+  }
