@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+     background:linear-gradient(to right,#f000,#000);
+     height: 100vh;
+     overflow: hidden;
+}
+.img{
+    text-align: center;
+   margin-top: 1rem;
+}
+.img img{
+    border-radius: 20px;
+}
 h1,h2,h3{
     text-align: center;
 }
@@ -19,17 +31,9 @@ h2{
      margin:0.5rem;
      position: relative;
      z-index: 2;
+     
 }
-.my-pic{
-  width: 10px;
-  height:10px;
-}
-.my-pic img{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    border-radius: 10%;
-}
+
 .navbar{
     position: fixed;
     top: 0;
@@ -64,32 +68,26 @@ h2{
  }
 
  span{
-     color:rgb(190, 40, 14)
+     color:tomato
  }
 H2{
-    color: rgb(16, 96, 245);
+    color:tomato;
     font-weight:400;
     font-size: 30px;
+    font-weight: bold;
 }
-body{
-    height: 100vh;
-     /* background:
-    url('./IMG-3.jpg') center  ;
-    background-size: cover ;
-    background-repeat: no-repeat; */
-    position: relative;
-    /* z-index: 1; */
-    overflow: hidden;
-    border-radius: 50%;
-}
-.footer{
+
+
+/* .footer{
     position: absolute;
     left: 0;
     bottom: 0;
-}
+} */
 .footer{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    
 }
  .footer a{
     padding: 0.2rem;
@@ -99,5 +97,5 @@ body{
  }
   .footer a:hover{
       color:tomato;
-      transition: all 1s ease-in-out;
+      transition: all 0.7s ease-in-out;
   }
