@@ -20,21 +20,25 @@ main{
 }
 
 
+
 figure{
     width: 300px;
     height: 300px;
     margin: 30px;
+    cursor: pointer;
+  
    }
 figure img{
     width: 100%;
     height: 100%;
    border-top-left-radius:1em ;
    border-top-right-radius:1em ;
+   position: relative;
 }
 figcaption{
     text-align: center;
     /* background: rgb(241, 95, 70); */
-      background:linear-gradient(to right,rgb(177, 13, 13),rgb(223, 217, 217));
+      background:linear-gradient(to right,rgb(108, 219, 16),rgb(220, 241, 31));
      border-bottom-left-radius:1em ;
      border-bottom-right-radius:1em ;
     
@@ -43,12 +47,14 @@ figcaption a{
     text-decoration: none;
     font-weight: 900;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(26, 19, 19);
+    opacity: 0;
+    transition: all 1s ease-in-out;
 }
 
-figure:hover{
-    background: tomato;
-    transform: translateX(100);
+figure:hover a {
+   opacity: 0.8;
+   /* transform: rotate(-10deg) ; */
 }
  footer{
      margin: 30px 0 30px 0;
