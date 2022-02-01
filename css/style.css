@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 body{
-     background:linear-gradient(to right,#f000,#000);
+     background:linear-gradient(to right,rgb(182, 166, 166),rgb(54, 43, 43));
      height: 100vh;
-     overflow: hidden;
+     /* overflow: hidden; */
 }
 .img{
     text-align: center;
@@ -17,9 +17,10 @@ body{
 }
 h1,h2,h3{
     text-align: center;
+    margin-top: 2rem;
 }
 h2{
-    margin-top: 0.4rem;
+    margin-top:2rem;
 }
 .menu{
     cursor: pointer;
@@ -78,15 +79,11 @@ H2{
 }
 
 
-/* .footer{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-} */
 .footer{
     display: flex;
     align-items: center;
   justify-content: center;
+  margin-top: 2rem;
     
 }
  .footer a{
