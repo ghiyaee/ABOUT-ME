@@ -67,3 +67,10 @@ figure:hover a {
       color:tomato;
       transition: all 1s ease-in-out;
   }
+
+  footer a:nth-child(6){
+      color: tomato;
+      position: absolute;
+      top:0;
+      right: 0;
+  }

@@ -5,9 +5,9 @@
 }
 body{
      background:linear-gradient(to right,rgb(182, 166, 166),rgb(54, 43, 43));
-     height: 100vh;
-     /* overflow: hidden; */
-}
+     /* height: 100vh; */
+    }
+
 .img{
     text-align: center;
    margin-top: 1rem;
@@ -29,7 +29,7 @@ h2{
     font-weight: 900;
      /* transform: rotateZ(90deg); */
      direction: rtl;
-     margin:0.5rem;
+     margin:1rem;
      position: relative;
      z-index: 2;
      
