@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
   }
   #mail,#mobil{
       color: tomato;
@@ -31,3 +31,6 @@ body{
  span{
      font-size: 2rem;
  }
+.info:nth-child(11){
+      color:tomato
+  }
