@@ -6,7 +6,7 @@
 body{
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(to right,rgb(44, 43, 43),rgb(190, 186, 186));
+    background: linear-gradient(to right,rgb(71, 69, 69),rgb(190, 186, 186));
 }
 
 .info{
